@@ -1,3 +1,2 @@
 
-
-print('John is here')
+print('J is here')
