@@ -5,4 +5,5 @@
 def addition(num1,num2):
 	return num1 + num2
 
+#print statement to test function works
 print(addition(5 , 5))
