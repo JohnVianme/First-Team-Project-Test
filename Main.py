@@ -1,6 +1,7 @@
 # This is the main file for the calc app
 # Authors: John and Man
 
+# addition fuction, takes in two inputs numbers and adds them
 def addition(num1,num2):
 	return num1 + num2
 
