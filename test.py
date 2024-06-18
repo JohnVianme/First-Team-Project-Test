@@ -1,2 +1,2 @@
-
-print('J is here')
+name = input("Enter your name: ")
+print("your name is John: " + name)
