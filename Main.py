@@ -14,6 +14,8 @@ def division(num1,num2):
 def multiplication(num1, num2):
 	return num1 * num2
 
+def exponential (num, power):
+    return num**power
 #print statement to test function works
 print(addition(5 , 5))
 
