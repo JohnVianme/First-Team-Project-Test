@@ -3,8 +3,17 @@
 from tkinter import *
 
 main = Tk()
-main.mainloop()
 
+main.geometry("250x300")
+a = Label(main, text="Hello")
+a.pack()
+def change_text():
+      global a
+      a.config(text="New text")
+
+button = Button(main, text = "Enter", command = change_text)
+button.pack()
+main.mainloop()
 
 
 # addition fuction, takes in two inputs numbers and adds them
