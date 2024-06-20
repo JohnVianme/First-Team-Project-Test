@@ -11,7 +11,7 @@ def change_text():
       global a
       a.config(text="New text")
 
-button = Button(main, text = "Enter", command = change_text)
+button = Button(main, text = "Enter", command= change_text)
 button.pack()
 main.mainloop()
 
