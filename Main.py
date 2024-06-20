@@ -1,5 +1,11 @@
 # This is the main file for the calc app
 # Authors: John and Man
+from tkinter import *
+
+main = Tk()
+main.mainloop()
+
+
 
 # addition fuction, takes in two inputs numbers and adds them
 def addition(num1,num2):
@@ -23,8 +29,8 @@ def exponential (num, power):
     return num**power
 
 #print statement to test function works
-print(addition(5 , 5))
-print(Sqr_Root(4))
+#print(addition(5 , 5))
+#print(Sqr_Root(4))
 
 
 
