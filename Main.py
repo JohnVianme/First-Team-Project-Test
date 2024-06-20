@@ -31,6 +31,7 @@ def exponential (num, power):
 #print statement to test function works
 #print(addition(5 , 5))
 #print(Sqr_Root(4))
+print("poopy")
 
 
 
